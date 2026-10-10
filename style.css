@@ -59,3 +59,4 @@
 .topic[open] summary::after{content:"－"}
 .topic[open] summary{margin-bottom:8px}
 @media(max-width:850px){.topic-grid{grid-template-columns:1fr;gap:8px}}
+@media(min-width:851px){.topic-grid{grid-template-columns:repeat(5,1fr);align-items:start}}
