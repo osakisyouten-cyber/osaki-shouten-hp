@@ -4,3 +4,5 @@ function closeMenu(){navigation.hidden=true;menu.setAttribute('aria-expanded','f
 menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';navigation.hidden=!open;menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'メニューを閉じる':'メニューを開く');});
 navigation.addEventListener('click',event=>{if(event.target.closest('a'))closeMenu();});
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!navigation.hidden){closeMenu();menu.focus();}});
+
+(function(){var b=document.createElement("button");b.type="button";b.className="to-top";b.setAttribute("aria-label","ページの先頭へ");b.textContent="↑";document.body.appendChild(b);function t(){b.classList.toggle("show",(window.pageYOffset||document.documentElement.scrollTop)>700)}window.addEventListener("scroll",t,{passive:true});b.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"})});t()})();
