@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://osaki-shouten.pages.dev/</loc><lastmod>2026-10-29</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-<url><loc>https://osaki-shouten.pages.dev/services</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/services</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/flow-article</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/keikei-checklist</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/haisha-shorui-futsusha</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -9,7 +9,7 @@
 <url><loc>https://osaki-shouten.pages.dev/shaken-gire-haisha</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/engine-kakaranai-hikitori</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/shakensho-funshitsu-haisha</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://osaki-shouten.pages.dev/holiday-2026-10</loc><lastmod>2026-10-15</lastmod></url><url><loc>https://osaki-shouten.pages.dev/articles</loc><lastmod>2026-10-29</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/holiday-2026-10</loc><lastmod>2026-10-15</lastmod></url><url><loc>https://osaki-shouten.pages.dev/articles</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/privacypolicy</loc><lastmod>2026-10-15</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/jikosha-kaitori</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/jiko-go-taiou</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -23,11 +23,11 @@
 <url><loc>https://osaki-shouten.pages.dev/contact</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/faq</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/haisha-jusho-shimei-henko</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://osaki-shouten.pages.dev/haisha-tetsuzuki-nissu</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/haisha-tetsuzuki-nissu</loc><lastmod>2026-10-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/haisha-ichiji-eikyu-chigai</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/haisha-meigi-chigau</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/keijidosha-kanpu-nashi</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://osaki-shouten.pages.dev/haisha-3gatsu-made</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/haisha-3gatsu-made</loc><lastmod>2026-10-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/adachi-haisha-guide</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/haisha-hiyo</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/recycle-ken-funshitsu</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -35,8 +35,9 @@
 <url><loc>https://osaki-shouten.pages.dev/suibotsu-kansui-haisha</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/haisha-go-shorui</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/holiday-2026-11</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-<url><loc>https://osaki-shouten.pages.dev/haisha-jibun-gyosha</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/haisha-jibun-gyosha</loc><lastmod>2026-10-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/chudan-shomeisho</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://osaki-shouten.pages.dev/ininjo-joto-shomei</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/ininjo-joto-shomei</loc><lastmod>2026-10-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://osaki-shouten.pages.dev/keijidosha-chushi-kaitai</loc><lastmod>2026-10-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://osaki-shouten.pages.dev/haisha-doniti</loc><lastmod>2026-10-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
