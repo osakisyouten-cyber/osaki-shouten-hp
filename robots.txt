@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://osaki-shouten.pages.dev/sitemap.xml
+Sitemap: https://osakisyouten.com/sitemap.xml
