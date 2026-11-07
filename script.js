@@ -11,3 +11,6 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!navigation
 
 /* topic-open: articles#g1 などのリンクで、該当のグループを開く */
 (function(){function o(){var id=location.hash.slice(1);if(!id)return;var e=document.getElementById(id);if(e&&e.tagName==="DETAILS"){e.open=true;setTimeout(function(){e.scrollIntoView({block:"start"})},50)}}window.addEventListener("hashchange",o);window.addEventListener("load",o)})();
+
+/* notice-filter: articles#news で、記事一覧の「お知らせ」の絞り込みを選ぶ */
+(function(){function f(){if(location.hash!=="#news")return;var c=document.querySelector('.article-filter .chip[data-filter="お知らせ"]');if(!c)return;c.click();setTimeout(function(){c.scrollIntoView({block:"center"})},50)}window.addEventListener("load",f);window.addEventListener("hashchange",f)})();

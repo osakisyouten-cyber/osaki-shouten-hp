@@ -96,3 +96,9 @@
 .notice-bar strong{background:#b26a00;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px}
 .notice-bar a{color:var(--deep);text-underline-offset:3px}
 .topic{scroll-margin-top:100px}
+
+.topic-card{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.topic-card img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block}
+.topic-card .topic-body{display:block;padding:10px 12px 14px}
+.topic-card .topic-body strong{margin-bottom:4px}
+@media(max-width:420px){.topic-card .topic-body{padding:8px 10px 12px}}
