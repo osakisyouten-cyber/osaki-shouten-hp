@@ -108,3 +108,15 @@
 .service-topics a:hover,.service-topics a:focus-visible{border-color:var(--blue);background:#e4f1fb}
 .service-articles .service-all{display:inline-block;margin-top:16px;color:var(--blue);font-weight:700}
 @media(max-width:650px){.service-topics{grid-template-columns:1fr 1fr}}
+
+.service-points{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.service-points li{position:relative;padding-left:24px;font-size:15px;font-weight:700;line-height:1.5}
+.service-points li:before{content:"✓";position:absolute;left:0;top:0;color:var(--blue);font-weight:700}
+.service-more{margin:0 0 18px;border-top:1px solid var(--line)}
+.service-more summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;padding:12px 0;font-size:15px;font-weight:700;color:var(--blue)}
+.service-more summary::-webkit-details-marker{display:none}
+.service-more summary::after{content:"＋";font-size:18px}
+.service-more[open] summary::after{content:"－"}
+.service-more dl{margin:0 0 4px}
+.service-card .service-cta{margin-top:auto}
+.service-card .service-note{margin-top:0}
