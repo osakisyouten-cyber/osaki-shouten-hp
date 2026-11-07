@@ -102,3 +102,9 @@
 .topic-card .topic-body{display:block;padding:10px 12px 14px}
 .topic-card .topic-body strong{margin-bottom:4px}
 @media(max-width:420px){.topic-card .topic-body{padding:8px 10px 12px}}
+
+.service-topics{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:8px 0 6px}
+.service-topics a{display:flex;align-items:center;justify-content:center;text-align:center;min-height:48px;background:#f0f7fc;border:1px solid var(--line);border-radius:8px;padding:8px;font-size:14px;font-weight:700;line-height:1.4;color:var(--blue);text-decoration:none}
+.service-topics a:hover,.service-topics a:focus-visible{border-color:var(--blue);background:#e4f1fb}
+.service-articles .service-all{display:inline-block;margin-top:16px;color:var(--blue);font-weight:700}
+@media(max-width:650px){.service-topics{grid-template-columns:1fr 1fr}}
