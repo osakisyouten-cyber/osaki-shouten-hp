@@ -121,3 +121,14 @@
 .service-card .service-cta{margin-top:auto}
 .service-card .service-note{margin-top:0}
 .service-card.wide{grid-column:1/-1}
+
+/* tool-banner: 車の維持費を計算する入口（トップ・記事一覧） */
+#tools{margin:22px 0}
+.tool-banner{display:flex;align-items:center;gap:16px;background:#fff;border:2px solid var(--line);border-radius:12px;padding:16px 20px;color:inherit;text-decoration:none;margin:18px 0}
+.tool-banner:hover{border-color:var(--blue)}
+.tool-icon{flex:none;display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;background:var(--blue);color:#fff;font-size:22px;font-weight:700}
+.tool-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.tool-text strong{font-size:17px;color:var(--deep)}
+.tool-text span{font-size:14px}
+.tool-banner>b{flex:none;color:var(--blue);font-size:14px;white-space:nowrap}
+@media(max-width:650px){.tool-banner{flex-wrap:wrap;padding:14px 16px;gap:10px 12px}.tool-text{flex-basis:calc(100% - 60px)}.tool-banner>b{margin-left:auto}}

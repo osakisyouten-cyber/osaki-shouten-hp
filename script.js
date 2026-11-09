@@ -21,3 +21,8 @@ var s=document.createElement("script");s.async=true;s.src="https://www.googletag
 window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",ID,{allow_google_signals:false,allow_ad_personalization_signals:false});
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href^='tel:']");if(a){gtag("event","phone_click",{link_text:(a.textContent||"").trim().slice(0,40),page_path:location.pathname});return}
 var m=e.target.closest&&e.target.closest("[data-ga-event]");if(m){gtag("event",m.getAttribute("data-ga-event"),{page_path:location.pathname})}});})();
+
+/* ga4-ijihi: 維持費フォームの利用を数える（入力の開始・計算例ボタン）。gtag が無いときは何もしない */
+(function(){var started=false;function g(n){if(typeof window.gtag==="function")window.gtag("event",n,{page_path:location.pathname})}
+document.addEventListener("input",function(e){if(!started&&e.target.closest&&e.target.closest("#car-cost-form")){started=true;g("ijihi_calc_start")}});
+document.addEventListener("click",function(e){if(e.target.closest&&e.target.closest("#car-cost-example"))g("ijihi_calc_example")})})();
