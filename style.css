@@ -120,3 +120,4 @@
 .service-more dl{margin:0 0 4px}
 .service-card .service-cta{margin-top:auto}
 .service-card .service-note{margin-top:0}
+.service-card.wide{grid-column:1/-1}
