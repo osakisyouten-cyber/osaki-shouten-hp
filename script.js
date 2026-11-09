@@ -14,3 +14,10 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!navigation
 
 /* notice-filter: articles#news で、記事一覧の「お知らせ」の絞り込みを選ぶ */
 (function(){function f(){if(location.hash!=="#news")return;var c=document.querySelector('.article-filter .chip[data-filter="お知らせ"]');if(!c)return;c.click();setTimeout(function(){c.scrollIntoView({block:"center"})},50)}window.addEventListener("load",f);window.addEventListener("hashchange",f)})();
+
+/* ga4: Googleアナリティクス（測定ID が入ったら、script.js の末尾に追加する）。電話タップなどのイベントも送る */
+(function(){var ID="G-PKG7B3TGLQ";if(!ID||ID.indexOf("XXXX")>-1)return;
+var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+ID;document.head.appendChild(s);
+window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",ID,{allow_google_signals:false,allow_ad_personalization_signals:false});
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href^='tel:']");if(a){gtag("event","phone_click",{link_text:(a.textContent||"").trim().slice(0,40),page_path:location.pathname});return}
+var m=e.target.closest&&e.target.closest("[data-ga-event]");if(m){gtag("event",m.getAttribute("data-ga-event"),{page_path:location.pathname})}});})();
