@@ -132,3 +132,5 @@
 .tool-text span{font-size:14px}
 .tool-banner>b{flex:none;color:var(--blue);font-size:14px;white-space:nowrap}
 @media(max-width:650px){.tool-banner{flex-wrap:wrap;padding:14px 16px;gap:10px 12px}.tool-text{flex-basis:calc(100% - 60px)}.tool-banner>b{margin-left:auto}}
+
+@media(max-width:650px){#news>h2+.news-grid>.news-extra:nth-child(n+4){display:none}}
